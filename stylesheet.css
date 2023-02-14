@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fdf2e9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+nav img {
+    /* padding-top: 20px; */
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav button {
+    border: none;
+    background-color: #e67e22;
+    padding: 12px 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+.section-hero {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    line-height: 1.05;
+    color: #333;
+    margin-left: 40%;
+    margin-bottom: 3.2rem;
+    /*3.2rem=32px */
+}
+
+.description {
+
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.06;
+    margin-left: 40%;
+
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    align-items: center;
+    gap: 9.6;
+    margin-top: 3%
+
+}
+
+.btn-full {
+    margin-top: 5%;
+    border: none;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 9px;
+    background-color: #e67e22;
+    margin-left: 40%;
+    color: white;
+    padding: 10px;
+
+}
+
+.btn-outline {
+    float: right;
+    border: none;
+    text-decoration: none;
+    margin-top: 5%;
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 9px;
+    padding: 10px;
+  
+}
+
+.hero-img {
+    width: 60%;
+    height: 0px auto;
+    float: right;
+    margin-right: 200px;
+    margin-bottom: 30px;
+}
+
+.delivered-meals {
+
+    margin-top: 2.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 40%;
+}
+
+.delivered-imgs {
+    display: flex;
+}
+
+.delivered-meals img {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    position: relative;
+    margin-left: -8px;
+    margin-bottom: 40px;
+    z-index: 1;
+    border: 2px solid #fdf2e9;
+}
+
+.delivered-text {
+    font-size: 10px;
+    margin-bottom: 30px;
+
+}
+
+.delivered-text span {
+    color: #cf711f;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+.pics {
+    margin-left: 400px;
+    color: #333;
+    margin-bottom: 20px;
+}
